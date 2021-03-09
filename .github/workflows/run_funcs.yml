@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Run funcs
-      uses: JamesForks/ActionServerless@php-support
+      uses: JamesForks/ActionServerless@v0.1
       with:
         filepath: ./
     - name: Git commit
